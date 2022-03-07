@@ -1,0 +1,29 @@
+{
+  "name": "kenokokoro/laravel-rabbitmq",
+  "description": "Queuing, Messages exchange, etc",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Brankovikj",
+      "email": "jimmy@lenidium.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "V9\\RabbitMQ\\": "src/"
+    },
+    "files": [
+      "helpers/functions.php"
+    ]
+  },
+  "require": {
+    "php": ">=7.0",
+    "php-amqplib/php-amqplib": "2.6.*",
+    "illuminate/contracts": ">=5.4",
+    "illuminate/support": ">=5.4",
+    "illuminate/queue": ">=5.4",
+    "illuminate/database": ">=5.4",
+    "illuminate/container": ">=5.4"
+  }
+}
